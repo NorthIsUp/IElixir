@@ -34,7 +34,7 @@ defmodule IElixir.Mixfile do
   defp deps do
     [{:erlzmq, github: "zeromq/erlzmq2", compile: "make"},
      {:poison, "~> 1.0"},
-     {:uuid, github: "okeuday/uuid"},
+     {:uuid, "~> 1.1"},
 
      {:sqlite_ecto, "~> 1.1.0"},
 
